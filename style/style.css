@@ -85,9 +85,9 @@ line-height: 26px;
     padding: 16px;
     align-items: flex-start;
     gap: 24px;
-     background-color: #FFF;
+     /* background-color: #FFF; */
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30);
+    /* background: rgba(255, 255, 255, 0.30); */
     }
 .btn{
     color: #FFF;
@@ -101,9 +101,18 @@ border: none;
 height: 50px;
 }
 .imgg{
-
+    margin: 0 auto;
+    max-width: 1250px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.img-part{
+    /* width: 50%;
+    height: 50%; */
+    width: 50%;
+flex-shrink: 0;
 }
 .text-part{
     width: 50%;
@@ -173,4 +182,113 @@ line-height: normal;
     font-size: 16px;
     font-weight: 700;
     line-height: 26px; /* 162.5% */
+}
+.form-sec{
+    margin: 100px auto;
+    max-width: 1250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 50%;
+    text-align: left;
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: #FFF;
+    border: 0;
+    width: 100%;
+
+}
+.img-sec{
+    /* width: 60%; */
+    width: 50%;
+height: 322px;
+flex-shrink: 0;
+position: relative;
+}
+/* .contact input[type="text"] , .contact input[type="email"] {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: #FFF;
+    border: 0;
+    
+} */
+.contact{
+    margin-top: 10px;
+    height: 100px;
+}
+.extra{
+    width: 120px;
+    height: 50px;
+    background-color: #FF5400;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #FFF;
+    position: absolute;
+    top: 90%;
+    left: 89%;
+    transform: rotate(-45deg);
+    border-radius: 5px;
+    
+}
+
+.deals{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.all{
+    max-width: 1250px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.done{
+    max-width: 1250px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.two-cards{
+    margin: 15px auto;
+    max-width: 1250px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 10px;
+}
+.no-1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 45%;
+    height: 284px;
+    text-align: center;
+}
+.no-2{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+width: 45%;
+height: 284px;
+text-align: center;
+}
+.no-3{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+height: 284px;
+width: 50%;
+/* display: flex;
+    align-items: center; */
+    margin: 10px auto;
+
 }
