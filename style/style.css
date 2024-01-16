@@ -7,15 +7,26 @@
 body{
     font-family: 'Mulish', sans-serif;
 
-    
 }
 header{
     margin: 0 auto;
+    max-width: 1250px; 
+    /* padding: 10px;
+    margin: 0 auto;
     max-width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; */
+
+}
+.hamburger-menu{
+    display: none;
 }
 nav{
     display: flex;
-    align-items: center;
+    align-items: center;  
+      gap: 15px; /* Add gap between items */
+
 }
 nav a{
     text-decoration: none;
@@ -42,6 +53,7 @@ nav a{
     color: #FF5400;
 }
 
+
 .main-part1{
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
@@ -50,6 +62,7 @@ nav a{
     width: 1320px;
     height: 600px;
     text-align: center;
+    display: flex;
     flex-direction: column;
     justify-content: center;
      align-items: center;
@@ -58,7 +71,6 @@ nav a{
 
 }
 .exp{
-    /* background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
     color: #FFF;
 font-size: 64px;
 font-style: normal;
@@ -76,19 +88,37 @@ line-height: 26px;
 
 .form{
     display: flex;
+    flex-direction: column;
     align-items: center;
     text-align: center;
     margin-top: 30px;
     padding: 5px;
     gap: 5px;
-    display: inline-flex;
+    width: 50%;
+    margin: 30px auto;
+    /* display: inline-flex; */
     padding: 16px;
     align-items: flex-start;
     gap: 24px;
      /* background-color: #FFF; */
     border-radius: 8px;
-    /* background: rgba(255, 255, 255, 0.30); */
+    
     }
+
+    .form input,
+    .form select {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }    
+.sad{display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: transparent;
+
+}
+
 .btn{
     color: #FFF;
 text-align: center;
@@ -107,17 +137,35 @@ height: 50px;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+    column-gap: 10px;
 }
 .img-part{
-    /* width: 50%;
-    height: 50%; */
+
     width: 50%;
 flex-shrink: 0;
+
 }
 .text-part{
     width: 50%;
     text-align: left;
 }
+.a{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+
+}
+.b{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
 footer{
     width: 100%;
     height: 502px;
@@ -125,17 +173,32 @@ footer{
     background: rgba(19, 19, 24, 0.05);
     text-align: center;
 }
-#imp{
-    display: block;
-    text-align: center;
-    margin: 120px auto;
+.ok hr{
+    height: 1px; 
+        background-color: #000; 
+        margin: 20px 0;
+
+}
+.imp{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 .vdo-part{
-    margin: 0 auto;
+    margin: 30px auto;
     max-width: 1250px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.form-sec hr{
+    
+        height: 1px; 
+        background-color: #000; 
+        margin: 10px 0; 
+      
+  
 }
 .textt{
     width: 50%;
@@ -258,12 +321,12 @@ position: relative;
 }
 
 .two-cards{
-    margin: 15px auto;
+    margin: 20px auto;
     max-width: 1250px;
     display: flex;
     justify-content: center;
     text-align: left;
-    gap: 10px;
+    gap: 15px;
 }
 .no-1{
     border-radius: 16px;
@@ -291,4 +354,31 @@ width: 50%;
     align-items: center; */
     margin: 10px auto;
 
+}
+
+.deals-img{
+    position: relative;
+}
+    
+.img-text{
+    position: absolute;
+    top: 50%;
+    width: 579px;
+height: 140px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 2px orangered;
+
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+text-align: center;
+padding: 50px;
+margin-bottom: 50px;
+}
+.di{
+    border: 2px solid #FFF;
+}
+#emni{
+    margin-left: 30%;
+    margin-bottom: 25%;
 }
