@@ -1,7 +1,123 @@
 *{
     margin: 0;
     padding: 0;
+    
+
 }
 body{
     font-family: 'Mulish', sans-serif;
+
+    
+}
+header{
+    margin: 0 auto;
+    max-width: 1250px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-container img{
+    width: 50px;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 26px;
+    width: 50%;
+}
+.item-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.special{
+    color: #FF5400;
+}
+
+.main-part1{
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px auto;
+    width: 1320px;
+    height: 600px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+     display: flex;
+     border-radius: 16px;
+
+}
+.exp{
+    /* background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
+    color: #FFF;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.p1{
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px;
+    gap: 5px;
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+     background-color: #FFF;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    }
+.btn{
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+line-height: normal;
+border-radius: 8px;
+background: #FF5400;
+border: none;
+height: 50px;
+}
+.imgg{
+
+    display: flex;
+    justify-content: space-between;
+}
+.text-part{
+    width: 50%;
+    text-align: left;
+}
+footer{
+    width: 100%;
+    height: 502px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+}
+#imp{
+    display: block;
+    text-align: center;
+    margin: 120px auto;
 }
