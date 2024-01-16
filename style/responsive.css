@@ -33,13 +33,17 @@
 
     .img-part {
         width: 100%;
-         display: ;
+         /* display: column; */
     }
 
     .text-part {
         width: 100%; /* Make the text take up the full width */
         text-align: center; /* Center the text */
         margin-top: 20px; /* Add some space between the image and text */
+    }
+    footer{
+        max-width: 100%;
+        text-align: center;
     }
 }
 
